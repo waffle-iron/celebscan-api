@@ -5,13 +5,25 @@
 Cache + Image proxy for the celebscan application. This application is used by the 
 [Celebscan](https://github.com/infosupport/celebscan) application as a wikipedia cache and image proxy.
 
-## Getting started
+## Prerequisites 
 Make sure you have .NET core 1.1 installed with the SDK installed on your machine.
 If you're running on Windows it comes with VS2017. You can also install the SDK on its own.
 
+## Installation
 Run the following commands to build the application:
 
-```
-dotnet restore
-dotnet build -c Release
-```
+ - `git clone <repository-url>` this repository
+ - `cd celebscan-api`
+ - `dotnet restore`
+ - `dotnet build -c Release`
+
+## Running / Development
+ - `cd src/Celebscan.Service`
+ - `dotnet run`
+
+### Testing
+ - `dotnet test`
+
+### Building
+ - `dotnet build` (development)
+ - `dotnet build -c Release` (production)
