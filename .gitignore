@@ -286,3 +286,6 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+# App specific configuration
+src/Celebscan.Service/appsettings.*.json
